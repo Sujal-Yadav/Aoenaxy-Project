@@ -22,7 +22,7 @@ export default function Navbar() {
     return (
         <div className="border-b">
             <div className="max-w-screen-lg md:flex hidden flex-wrap items-center justify-between mx-auto p-4">
-                <img className="h-10" src="src/assets/image.png" alt="" />
+                <img className="h-10" src="assets/image.png" alt="" />
                 <ul className="flex justify-between items-center">
                     <li className="px-4 text-lg inline-flex text-gray-400 justify-center gap-x-1.5 rounded-md bg-white py-2 hover:bg-gray-50">Security</li>
                     <li className="px-4 text-lg inline-flex text-gray-400 justify-center gap-x-1.5 rounded-md bg-white py-2 hover:bg-gray-50">Integrations</li>
@@ -63,7 +63,7 @@ export default function Navbar() {
             </div>
 
             <div className="flex md:hidden justify-between p-2">
-                <img className="h-10" src="src/assets/image.png" alt="" />
+                <img className="h-10" src="assets/image.png" alt="" />
 
                 <div className="flex justify-center items-center">
                     <button onClick={handleAccount} type="button" class="inline-flex justify-center items-center text-gray-400 gap-x-1.5 rounded-md bg-white px-3 py-2 hover:bg-gray-50" id="menu-button" aria-expanded="true" aria-haspopup="true">
