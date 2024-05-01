@@ -56,6 +56,14 @@ export default function Setting() {
                 {menu === "deletion" && <Deletion />}
             </div>
 
+            <div className="absolute -right-5 shadow-inner p-2 rounded-md top-60 -rotate-90">
+                <button>Feedback</button>
+            </div>
+
+            <div className="absolute right-5 top-[150%]">
+            <div class="absolute inline-flex items-center justify-center w-4 h-4 text-xs font-bold text-white bg-red-500 rounded-full -top-2 -end-2 ">1</div>
+                <button className="bg-slate-800 text-white text-sm font-thin px-3 py-2 rounded-md">Getting started</button>
+            </div>
 
         </>
     )
